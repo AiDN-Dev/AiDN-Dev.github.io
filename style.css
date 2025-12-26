@@ -12,3 +12,38 @@ body {
 
   padding: 2rem;
 }
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+h1, h2 {
+  line-height: 1.25;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #0066CC;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+header p{
+  color: #555;
+  font-size: 1.1rem;
+}
