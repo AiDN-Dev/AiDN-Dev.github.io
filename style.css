@@ -138,6 +138,38 @@ header p {
   color: var(--text-muted);
 }
 
+#intro-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: start;
+}
+
+.intro-aside {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.now-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.now-list li {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+/* mobile fallback */
+@media (max-width: 768px){
+  #intro-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .social-links {
   display: flex;
   gap: 1.25rem;

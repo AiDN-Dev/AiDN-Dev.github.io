@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, inital-scale=1" />
-    <title>About Me</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AiDN-Dev</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main>
@@ -13,20 +13,42 @@
       <p>I'm an indie dev from the United Kingdom!</p>
     </header>
 
-    <section id="about">
-      <p>I'm AiDN, I come from the United Kingdom and I dabble with game development.</p>
-      <p>My main language is GDScript as Godot is my engine of choice. I've previously dabbled with Unreal and Unity in the past. If you want to check out anything I've worked on my GitHub is linked further down below.</p>
+    <!-- INTRO GRID -->
+    <section id="intro-grid">
+      <div class="intro-main">
+        <section id="about">
+          <p>
+            I'm AiDN, I come from the United Kingdom and I dabble with game development.
+          </p>
+          <p>
+            My main language is GDScript as Godot is my engine of choice. I've previously
+            dabbled with Unreal and Unity in the past. If you want to check out anything
+            I've worked on my GitHub is linked further down below.
+          </p>
+        </section>
+
+        <section id="interests">
+          <h2>Interests</h2>
+          <ul>
+            <li>Gaming</li>
+            <li>Development</li>
+            <li>Football (Up the villa!)</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside class="intro-aside">
+        <h2>Currently</h2>
+        <ul class="now-list">
+          <li>Prototyping small Godot projects</li>
+          <li>Learning shaders & visual effects</li>
+          <li>Participating in game jams</li>
+          <li>Tweaking my Arch Linux setup</li>
+        </ul>
+      </aside>
     </section>
 
-    <section id="interests">
-      <h2>Interests</h2>
-      <ul>
-        <li>Gaming</li>
-        <li>Development</li>
-        <li>Football (Up the villa!)</li>
-      </ul>
-    </section>
-
+    <!-- FEATURED PROJECTS -->
     <section id="featured-projects">
       <h2>Featured Projects</h2>
       <div class="projects">
@@ -37,7 +59,11 @@
           </header>
 
           <div class="project-body">
-            <p class="project-description">These are the dotfiles for my arch installation. I've been enjoying my experiments with the various ways to acheive my desired look and feel for my system.</p>
+            <p class="project-description">
+              These are the dotfiles for my Arch installation. I've been enjoying my
+              experiments with the various ways to achieve my desired look and feel
+              for my system.
+            </p>
 
             <ul class="project-tech">
               <li>LUA</li>
@@ -49,7 +75,7 @@
 
           <footer class="project-footer">
             <a href="https://github.com/aidn-dev/dotfiles">
-              View on GitHub >
+              View on GitHub
             </a>
           </footer>
         </article>
@@ -61,7 +87,11 @@
           </header>
 
           <div class="project-body">
-            <p class="project-description">My attempt at an entry for the Jingle Jam game jam hosted by the Yogscast, It came in second from last but was a good learning experience for delivering the project within a short timetable.</p>
+            <p class="project-description">
+              My attempt at an entry for the Jingle Jam game jam hosted by the Yogscast.
+              It came in second from last but was a good learning experience for
+              delivering the project within a short timetable.
+            </p>
 
             <ul class="project-tech">
               <li>Godot</li>
@@ -72,13 +102,14 @@
 
           <footer class="project-footer">
             <a href="https://github.com/aidn-dev/jingle-jam-entry">
-              View on GitHub >
+              View on GitHub
             </a>
           </footer>
         </article>
       </div>
     </section>
 
+    <!-- LINKS -->
     <section id="links">
       <h2>Find Me</h2>
       <div class="social-links">
